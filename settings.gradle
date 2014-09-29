@@ -1,0 +1,4 @@
+include ':app', ':licensing', ':apkExpansion', ':sampleLicensing'
+project(':licensing').projectDir = new File('library/licensing')
+project(':apkExpansion').projectDir = new File('library/apkExpansion')
+project(':sampleLicensing').projectDir = new File('Sample/sampleLicensing')
